@@ -29,7 +29,12 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/jquery.js",
+              "src/assets/js/bootstrap.bundle.js",
+              "src/assets/js/jquery.easing.js",
+              "src/assets/js/sb-admin-2.js"
+            ]
           },
           "configurations": {
             "production": {

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="/src/assets/css/cart.css">
+    <title>Title</title>
+</head>
+
+<body id="my-body">
+
+    <!-- Navigation -->
+    <app-public-navbar></app-public-navbar>
+
+    <div class="container mt-5">
+
+        <div class="row">
+            <div class="col">
+                <div class="card shopping-cart">
+                    <div class="card-header bg-light ">
+                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        Shipping cart
+                    </div>
+                    <div class="card-body">
+                        <!-- PRODUCT -->
+                        <div class="row" id="products-list">
+
+                        </div>
+
+                        <!-- END PRODUCT -->
+                    </div>
+                    <div class="card-footer">
+                        <div class="float-left">
+                            Total price: <b id="total-price"></b>
+                        </div>
+
+                        <div class="float-right">
+                            <button class="btn btn-sm btn-info">Passer Commande</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="py-5 bg-light fixed-bottom">
+        <div class="container">
+            <p class="m-0 text-center">Copyright &copy; Your Website 2021</p>
+        </div>
+        <!-- /.container -->
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+    <script src="/src/assets/js/cart.js"></script>
+</body>
+
+</html>

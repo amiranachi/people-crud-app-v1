@@ -1,0 +1,13 @@
+<div class="card">
+    <img [src]="image" class="img-fluid">
+    <div class="card-body text-center">
+        <h4 class="card-title">{{name}}</h4>
+        <p class="card-text">{{price}} DT</p>
+    </div>
+    <div class="card-footer">
+        <!-- onclick="addToCart(${products[i].id},'${products[i].image}','${products[i].name}',${products[i].price})" -->
+        <button class="btn btn-dark btn-block">
+            <i class="fa fa-plus"></i> Add to cart
+        </button>
+    </div>
+</div>
